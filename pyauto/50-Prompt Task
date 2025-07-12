@@ -1,0 +1,256 @@
+A. Basic Prompt Templates
+1. General Inquiry :
+    Explain [AI automation] in simple terms
+
+2. Summarization :
+  Summarize the following text in [3] bullet points: 
+  [AI handles routine, time-consuming tasks like data entry, scheduling, or sorting information. It processes large data sets and applies algorithms to make decisions or take actions automatically. By automating tasks, AI saves time, reduces errors, and allows humans to focus on more complex, creative work]
+
+3. Paraphrasing
+  Rewrite this sentence in your own words:
+  [AI automation reduce manual efforts and time consuming, automating task saving time and reducing errors creative work, improves the performance, providing accuracy of data]
+
+4. Definition Request
+   What is the meaning of [AI]?
+
+5. Comparison
+   Compare [Manual efforts] and [Automation] based on [AI].
+
+B. Persona-Based Prompt Templates
+ 6.Role + Explanation
+ You are a [Gen AI Architect]. Explain [AI Automation] to [Project Manager]. 
+ Example: You are a Gen AI Architect. Explain how to use GEN AI Automation tool to Project Manager into your Project
+
+7.Style Mimicry
+ Write like [Write like Elon Musk]: [topic]. 
+ Example: Write like Elon Musk: Why AI Automation.
+
+8. Professional Writing
+ You are a [AI Architect]. Write a [Product description] about [Models and Spaces]. 
+
+C. Few-Shot Prompt Templates
+ 9.Classification Template Classify sentiment:
+ Test cases are Executed Without issue [Status: Pass]
+ Test cases are Executed With issue [Status: Fail]
+ Test Cases are not executed [Exception error/System Error]
+
+10.Translation Template
+Translate the following sentences into [Tamil language] :
+[What is the efficiencies] [Tamil Translated sentence]
+[What is the resources]   [Tamil Translated sentence]
+[Efficiency refers to the capability and results of an activity, and resources refer to the things that help perform any task, such as money, people, or machines.”]  
+
+11. Question Answering Template Answer these questions:
+
+ Answer:
+ What does AI stand for?
+ What does CPU stand for?
+ Who is known as the father of computers?
+
+D. Chain-of-Thought (COT) Templates
+12. Step-by-Step Reasoning
+Let’s think step by step. TC03 — The user attempts password reset.
+First, we verify the user’s email address,
+then the system generates a reset link,
+so finally the user should receive a password reset email.
+
+13.Math Problem Solving
+Solve this math problem by showing your work: [180 test cases executed in one day — how much time does one test case consume?]
+
+14. Logical Puzzle
+Solve the following logic puzzle. Show your reasoning process: [Puzzle description]
+
+Laptop A, B, and C have prices: ₹40,000, ₹50,000, ₹60,000.
+
+Facts:
+1. Laptop B is more expensive than A.
+2. Laptop C is not the most expensive.
+3.Laptop A is not the cheapest.
+Question: What is the price of each laptop?
+
+
+
+E. Instruction Tuning / Format Control
+15.Output Formatting
+Summarize the article below in exactly [3] bullet points.
+
+•	A mobile phone is a portable device for calls, messaging, and internet use.
+
+•	Smartphones include advanced features like cameras, apps, and GPS.
+
+•	Overuse of mobile phones can cause distractions and health problems.
+
+
+
+16.Table Generation
+Create a table comparing [Python, JavaScript], [Java], and [Python, Ruby] based on [Language Support].
+
+
+17.Email Writing
+Write a professional email to [Admin] regarding [Reporting Laptop Damage]. Use a formal tone.
+
+F. Contextual Prompts
+18.Tailored Explanation
+“Explain [Playwright framework] to a [non-technical person] who knows [basic computer knowledge]
+
+19.Industry-Specific Context
+As a [Gen AI Architect], explain how [Stream lit Framework] impacts [software testing industry].
+
+G. Creative Writing Prompts
+20.Story Writing
+Write a short story about [Samreen Fathima] who [Quality Engineer Lead] but faces [Coding issues].
+
+21.Poem Writing
+Write a poem in free verse about the impact of technology on daily life.”
+
+22.Dialogue Writing
+Write a realistic dialogue between Basha and Samreen discussing time management.”
+
+H. Code Technical Prompts 
+23.Code Generation
+Write a [Java] function to calculate Fibonacci numbers.
+
+24.Debugging Help
+Here is Java code. Find and fix any errors : [def greet(name)
+    print("Hello, " + name)]
+
+25.API Documentation
+Explain how to use the Weather API with an example request and response
+
+I. Marketing & Business Prompts
+26.Ad Copywriting
+Write a compelling ad for a premium home loan service targeting young IT professionals in Chennai.
+
+
+27.Product Description
+Write a persuasive product description for [Aloe Vera Gel].
+
+
+28. Social Media Post
+Create a social media post promoting [Real estate] in a friendly tone.
+
+J. Customer Support & Service Prompts 
+29.Response to Complaint 
+Respond professionally to this customer complaint:  [ I ordered a plot site visit, but no one contacted me back. Very disappointed!”]
+
+30. FAQ Generator
+Generate 5 common FAQS and Answers for [best Generative AI tools]
+
+
+K. Education Tutoring Prompts
+31.Lesson Plan Creation
+Create a lesson plan for teaching Photosynthesis to Grade 6 Science students
+32.Quiz Generation
+Generate a 5-question quiz about [First Aid Basics].
+
+33.Homework Help
+Explain how to solve this [math/science] problem: [Basha has 15 balls. He gives 6 balls to his friend. How many balls does Basha have now?]
+
+L. Advanced Framework-Based Templates
+34.ReAct Framework
+Thought: [Private Limited Company]
+Action: [Better Trust]
+Observation: [More Client Retention/ Higher Lead Conversion]   Answer: [More Clients]
+Simulate agent behaviour manually.
+
+35. Tree of Thoughts (TOT)
+Generate 3 possible solutions to [We need to get more qualified leads for our real estate business]. Evaluate each and choose the best one.
+
+36.Self-Consistency Prompting
+Solve the following question in 3 different ways and pick the most consistent answer:
+[How to Create more Qualified Leads in Marketting]
+
+
+M. Prompt Optimization Evaluation
+37. Prompt Refinement
+Improve this prompt: "[ I am Learner of GEN AI Architect, How to improve my skills?, what kind of improvement will see in this Course?] Make it clearer, more specific, and structured.
+
+
+38.Prompt Grading Rubric
+Rate this output based on the following criteria (1-5): 
+ Relevance: How well does the output (or prompt) align with AI’s intended role & capability, audience, goal
+Accuracy: Facts and instructions are correct and clear
+Clarity: language clear, easy to read, and understandable
+Fluency: flow naturally, with good grammar, sentence structure, and smooth wording
+Creativity: engaging, original, or does it offer a fresh approach
+Final Score: Excellent quality, well aligned with the goal and audience
+
+39. Prompt Iteration Challenge
+Take this weak prompt: "[how to improve our spoken language]"
+Now rewrite it 3 times to improve clarity and effectiveness.
+
+N. Real-World Application Prompts
+40.Job Posting Creation
+Write a job posting for [Gen AI Architect] at [IT Company]. Include responsibilities, requirements, and benefits. 
+
+41.Resume Summary Builder
+Create a professional summary for a resume based on the following details:
+[5 years of experience, Digital Marketing Specialist, skilled in SEO, increasing website traffic by 60% and leading a team of 4 marketers]
+
+42. Business Proposal
+Write a proposal for [AI-Powered Customer Support Chatbot] to [ABC Retail Pvt Ltd]. Include objectives, methodology, and benefits
+
+O. Miscellaneous Useful Templates
+43.Opinion Writing
+Write an opinion piece on [Why Remote Work is Here to Stay]. Use persuasive arguments and examples.
+
+44.Debate Preparation
+Prepare arguments for both sides of the debate: "[Traditional AI VS Gen AI]"
+
+45.Travel Planning
+Plan a 5-day trip to [Kyoto, Japan] for [Solo Cultural Traveler]. Include activities, budget, and tips.
+
+46.Book/Movie Review
+Write a review of [Inception]. Include plot summary, strengths, weaknesses, and recommendation.
+
+47.Personal Development
+Give me actionable advice on how to [Become more productive while working from home], including daily  habits and mindset shifts
+
+P. Prompt Chaining Examples
+48.Multi-step Research Task
+Step 1:
+Find out the top 5 causes of climate change.
+Step 2:
+Based on those causes, suggest 5 practical solutions individuals can adopt.
+
+49.Idea to Execution
+Step 1:
+Generate 5 business ideas for eco-friendly products.
+Step 2:
+Pick one idea and create a marketing strategy for it.
+
+
+
+Q. Prompt Template Generator
+50. Universal Prompt Builder
+[Role] + [Task] + [Context] + [Example]+ [Format]
+Example:
+You are a nutritionist. Create a weekly meal plan for someone with diabetes. Include breakfast, lunch, dinner, and snacks.
+Format as a table.
+
+Role: Gen AI Architect.
+Task: Write a short project proposal to pitch a Gen AI-powered knowledge assistant for a healthcare company.
+Context: The assistant will help medical staff retrieve policy information quickly.
+Example: Include objectives, approach, and expected benefits.
+Format: Format as a 3-section brief: Objectives, Methodology, Benefits.
+
+Role: Gen AI Architect.
+Task: Design 3 potential real-world use cases for integrating a Large Language Model (LLM) into a mid-sized retail business.
+Context: The company wants to automate customer support, generate marketing content, and optimize inventory queries.
+Example: Each use case should explain the goal, user interaction, and value.
+Format: Format as a numbered list with a short paragraph for each.
+
+
+Role: medical assistant.
+Task: Draft a brief discharge summary for a patient who was admitted for acute asthma exacerbation.
+Context: Include admission reason, treatment given, condition at discharge, and follow-up advice.
+Example: Use formal, clear medical language appropriate for the patient’s medical record.
+Format: Format as a standard discharge report with headings: Admission Diagnosis, Hospital Course, Discharge Condition, Follow-Up.
+
+
+
+
+
+
+
+
