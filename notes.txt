@@ -1,4 +1,66 @@
-content changed
-content changed
-Second line
-Beautifully added
+Principles of Generative AI
+A Technical Introduction
+Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial
+intelligence algorithms capable of producing novel content — in varied formats such as text,
+audio, video, pictures, and code — based on user prompts. Recent advances in machine
+learning (ML), massive datasets, and substantial increases in computing power have propelled
+such tools to human-level performance on academic and professional benchmarks , 1
+comparable to the ninetieth percentile on the SAT and the bar exam.
+This rapid progress has led many to to believe that the metamorphosis of these technologies 2
+from research-grade demos to accessible and easy-to-use production-grade goods and
+services carries the potential to supercharge business processes and operations while enabling
+entirely new deliverables heretofore rendered infeasible by economic or technological factors. It
+took OpenAI’s ChatGPT, a conversational web app based on a generative (multimodal)
+language model, about five days to reach one million users (compared to 2.5 months for 3
+Instagram). On the business side, the Economist reports that the number of jobs mentioning AIrelated skills quadrupled from 2022 to 2023. This enthusiasm has not gone unmet by investors.
+Generative AI startups reportedly raised 600% more capital in 2022 than in 2020 . 4
+
+
+Purpose and Scope
+What are these new-era AI technologies? How do they function? What principles do they
+operate on? What makes them different than already-hyped-up conventional machine learning
+(ML) models? For what tasks is this class of technology most impactful? What future advances
+might one look forward to? These are the questions this report attempts to shed some light on.
+The report will also tease out how this understanding foundationally informs the best uses (and
+misuses) of GenAI in applied contexts.
+A word of disclaimer: this gradient of topics also means that, while the initial sections deal with
+factual, if somewhat simplified, nuts-and-bolt workings of such models, the later sections delve
+into hopefully reasonable, but in a manner that only time may attest to, extrapolations and
+speculations, as necessitated by the developing nature of this technology and its current phase
+in the technology adoption cycle.
+While generative AI models come in many different shapes, utilizing varied statistical and
+computational techniques to target various modalities, ranging from code and text to audio and
+video, this report focuses almost exclusively on large language models (LLMs) capable of
+generating novel text from textual prompts. This choice is partly due to the substantial lead
+LLMs have in driving the overall usage of generative AI models and partly due to the centrality 5
+of language in formulating and addressing commonplace information-processing tasks. That
+said, image- and code-based GenAI models have already witnessed successful commercial
+product deployment, for example, by Adobe for creating visual content and by Github as a
+programming assistance tool. 
+
+
+A Quick First Introduction to Language Models
+At its core, a language model implements a simple functionality— to predict the next word (or
+token) given a context window specifying preceding words. More precisely, given a context
+window, a language model outputs a probability distribution over all possible words in its
+vocabulary, indicating the probability with which each possible word follows the given list of
+words. Upon sampling a guess of the next word from the said distribution, the language model 6
+incrementally repeats this ostensibly primitive step to produce a more extensive body of text. 
+
+
+Classical Machine Learning as Prediction Machines
+We start with the most well-understood subset of machine learning techniques: supervised
+learning. The central objective in supervised learning is to produce a prediction rule that predicts
+well on unseen data, given enough labeled examples. For example, consider predicting house
+prices from the square footage in a given zip code. Instead of creating a hand-crafted prediction
+rule, the machine learning methodology advocates for choosing a prediction rule from an
+expressive but non-exhaustive class of rules, such as linear predictors, that provides the best fit
+on an existing collection of size-price examples. The statistically well-substantiated leap of faith
+here is that we expect (or at least hope) that a parsimonious prediction rule that predicts well on
+collected data, for which we know the correct answers, continues to maintain its predictive edge
+on unseen data, where answers or prices are unknown. Such a predictive methodology benefits
+from an abundance of labeled examples, hoping that a prediction rule learned from more
+examples is more robust in that its superior predictive performance on seen data is less
+ascribable to chance alone. Another example of a supervised learning task is to separate spam
+from non-spam mail, given the text in email messages. Again, having more examples of spam
+and non-spam emails is helpful to a supervised learning algorithm
