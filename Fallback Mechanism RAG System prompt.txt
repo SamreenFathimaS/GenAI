@@ -1,0 +1,99 @@
+Fallback Mechanism RAG System Execution
+
+Prompt
+Core Instructions: You are a RAG system with a sophisticated fallback hierarchy that ensures robust information retrieval even when primary methods fail.
+Fallback Hierarchy
+Query: {"Waterfall and Agile methodology"}
+
+Level 1: PRIMARY RETRIEVAL (Vector Similarity)
+Method: Dense vector similarity search
+Threshold: 0.8
+Results:
+	-3 documents retrieved
+	-Only 2 above similarity threshold
+	-Content focused only on Agile (limited comparative detail)
+
+Success Criteria Met: NO
+Fallback Triggered: Proceed to Level 2
+
+Level 2: SECONDARY RETRIEVAL (Keyword Expansion)
+Expanded Query: "Waterfall vs Agile methodology software development lifecycle differences advantages disadvantages phases comparison"
+
+Method: Keyword-based search
+Results:
+	-6 documents retrieved
+	-Addressed methodology comparison, lifecycle steps, use cases
+
+Status: SUFFICIENT
+But for robustness demonstration, continue to Level 3.
+Optional Advancement to Level 3 for Reinforcement
+
+Level 3: TERTIARY RETRIEVAL (Semantic Expansion)
+Semantic Expansion Query:
+"sequential vs iterative software models project management methodologies adaptive development vs predictive SDLC approaches"
+ Method: Semantic query expansion using conceptual similarity
+Results:
+	 -5 additional documents retrieved
+	-Included broad SDLC philosophies, hybrid models, project suitability guidance
+
+Status: GOOD COVERAGE
+Information enriched with broader educational depth
+Proceed optionally to Level 4 to ensure completeness and analogical connections.
+
+Level 4: QUATERNARY RETRIEVAL (Cross-Domain / Analogical Search)
+Analogical Expansion:
+"manufacturing waterfall process vs lean startup agile iterations product design lifecycle process flow"
+(Cross-domain with product engineering & operations)
+
+Results:
+	-4 documents from product lifecycle and industrial software blogs
+	-Analogies like: assembly line = Waterfall, rapid prototyping = Agile
+
+Status: USEFUL ANALOGIES ADDED
+Great for student intuition and real-world mapping
+
+Final Response
+Retrieval Level Used: QUATERNARY (Level 4)
+Confidence Level: HIGH
+Information Status: COMPREHENSIVE
+ Answer:
+Waterfall and Agile are two fundamental software development methodologies used to manage the software development lifecycle (SDLC). They differ in process structure, team interaction, adaptability, and risk management.
+
+Waterfall Methodology:
+Linear, phase-based model
+Follows strict stages: Requirements → Design → Build → Test → Deploy → Maintain
+Emphasizes planning and documentation
+Ideal for projects with well-defined, unchanging requirements
+Difficult to go backward once a phase is completed
+
+Agile Methodology:
+Iterative, incremental model
+Focused on customer collaboration, adaptive planning, and continuous delivery
+Divides work into sprints (typically 1–4 weeks)
+Encourages frequent feedback and real-time improvement
+Works best in dynamic, evolving environments
+
+
+Analogical Mapping (from Cross-Domain Retrieval):
+| Domain        	 | Waterfall Analogy       		 | Agile Analogy         
+| -------------   	 | ------------------------ 		 | --------------------- 
+| Manufacturing | Assembly line            		 | Lean prototyping      
+| Publishing    	 | Print publishing process 	 | Iterative blogging    
+| Construction  	 | Blueprints to build      		 | Modular prefab design 
+
+Sources Used:
+	-Agile Manifesto (agilemanifesto.org)
+	-PMI & PMBOK SDLC Models
+	-IEEE Software Engineering Body of Knowledge (SWEBOK)
+	-Atlassian Agile vs Waterfall Docs
+	-Harvard Business Review: Agile vs Traditional in Ops
+	-Lean Product & DevOps Blogs (Cross-Domain)
+
+Limitations:
+	-Methodologies are evolving — hybrid models (e.g., Wagile, Scrumfall) are common
+	-Team size, product type, and customer involvement influence best-fit choice
+
+Suggestions:
+	-For practical exposure, try building a mini project using both models
+	-Explore hybrid models used in enterprise and government systems
+	-Use simulation tools like Lucidchart or Miro to visualize both processes
